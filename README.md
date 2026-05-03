@@ -17,14 +17,14 @@ The code folder contains all analysis notebooks intended to be run in order. Cel
 The raw data must be downloaded manually. Due to licensing restrictions no raw data files are included in this repository.
 NEER data comes from the Bank for International Settlements at bis.org/statistics/eer. GPR global and country indices come from Caldara and Iacoviello (2022) at matteoiacoviello.com/gpr. VIX come from FRED at fred.stlouisfed.org. The External Wealth of Nations dataset comes from Lane and Milesi-Ferretti via imf.org. Commodity Terms of Trade come from the IMF at imf.org. Trade in Value Added data comes from the OECD at oecd.org/sti/ind/tiva. FX reserves, inflation, trade openness, and GDP growth come from the World Bank World Development Indicators at data.worldbank.org. The exchange rate regime classification comes from Ilzetzki, Reinhart and Rogoff at carmenreinhart.com.
 
-Replication Instructions
+**Replication Instructions**
 Download all data files listed above and place them in a folder on Google Drive. Open the notebooks in Google Colab. Update the BASE_DIR path in Cell 1 to point to your Drive folder. Run the data preparation notebook first, then run the analysis notebook cells in order from Cell 1 through Cell 11. All outputs including tables and figures will be saved to the output directory defined in Cell 1.
 
-Software
+**Software**
 All analysis was conducted in Python 3.10 via Google Colab. Key packages are pandas, numpy, statsmodels, scipy, matplotlib, openpyxl, and xlrd.
 
-Citation
+**Citation**
 Haouet, M. (2026). Geopolitics in Motion: The Hidden Architecture Behind Currency Reactions. Undergraduate Thesis, IE University.
 
-Note on AI Assistance
+**Note on AI Assistance**
 This project used Claude (Anthropic) and ChatGPT (OpenAI) as coding assistants during the empirical analysis phase. All analytical and substantive decisions including research design, methodology, variable selection, model specifications, and interpretation of results were made independently by the author.
